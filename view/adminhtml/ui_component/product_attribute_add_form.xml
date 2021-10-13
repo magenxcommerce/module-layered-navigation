@@ -11,7 +11,6 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="valuesForEnable" xsi:type="array">
-                        <item name="boolean" xsi:type="string">boolean</item>
                         <item name="select" xsi:type="string">select</item>
                         <item name="multiselect" xsi:type="string">multiselect</item>
                         <item name="price" xsi:type="string">price</item>
@@ -20,7 +19,7 @@
                 </item>
             </argument>
             <settings>
-                <notice translate="true">Can be used only with catalog input type Yes/No (Boolean), Dropdown, Multiple Select and Price.</notice>
+                <notice translate="true">Can be used only with catalog input type Dropdown, Multiple Select and Price.</notice>
                 <dataType>string</dataType>
                 <label translate="true">Use in Layered Navigation</label>
                 <dataScope>is_filterable</dataScope>
@@ -37,7 +36,6 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="valuesForEnable" xsi:type="array">
-                        <item name="boolean" xsi:type="string">boolean</item>
                         <item name="select" xsi:type="string">select</item>
                         <item name="multiselect" xsi:type="string">multiselect</item>
                         <item name="price" xsi:type="string">price</item>
@@ -47,7 +45,7 @@
                 </item>
             </argument>
             <settings>
-                <notice translate="true">Can be used only with catalog input type Yes/No (Boolean), Dropdown, Multiple Select and Price.</notice>
+                <notice translate="true">Can be used only with catalog input type Dropdown, Multiple Select and Price.</notice>
                 <label translate="true">Use in Search Results Layered Navigation</label>
                 <dataScope>is_filterable_in_search</dataScope>
                 <imports>
